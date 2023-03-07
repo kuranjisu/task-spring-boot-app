@@ -1,4 +1,4 @@
-# Task Sring Application
+# Task Spring Application
 This is an exercise on the use of Spring Boot JPA and Postgres Database
 
 # Convert the Application to JAR File
@@ -7,11 +7,11 @@ This is an exercise on the use of Spring Boot JPA and Postgres Database
   
 # Docker Folder
 Using the command below copy the jar file from target folder to src\main\docker using the command:
-`cp target/spring-app-0.0.1-SNAPSHOT.jar src/main/docker`
+`cp target/spring-app-0.0.1-SNAPSHOT.jar docker`
 
 # Build
 Change directory to docker directory
-`cd src\main\docker`
+`cd docker`
 
 Then, build
 `docker build -t task .`
